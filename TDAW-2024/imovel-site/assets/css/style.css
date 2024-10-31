@@ -1,4 +1,11 @@
-body{
+/* Reset e configurações iniciais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Roboto, sans-serif;
 }
 
@@ -7,17 +14,18 @@ body{
     margin: 0 auto;
 }
 
-header {  /* T R B L */
-    padding: 1.25rem 1.25rem 0rem 1.25rem;
+/* Header */
+header {
+    padding: 1.25rem 1.25rem 0;
 }
 
 header .container {
-    display: flex;   
-    flex-direction: row;    
-    justify-content: space-between;  /*Alinhamento horizontal com espaço entre eles*/
-    align-items: center;    /*Alinhamento vertical ao centro*/
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
 header .brand {
     display: flex;
     gap: 1rem;
@@ -35,28 +43,25 @@ header .brand h1 {
     line-height: 2rem;
 }
 
-header nav {
-}
-
 header nav ul {
     display: flex;
     list-style-type: none;
     gap: 1rem;
 }
 
-header nav li{
+header nav li {
     font-weight: 300;
     line-height: 2rem;
 }
 
 header nav a {
     text-decoration: none;
-    color: #000 ;
+    color: #000;
     text-transform: uppercase;
     padding-bottom: 1rem;
 }
 
-header nav a:hover, 
+header nav a:hover,
 header nav a.active {
     color: #0889d4;
 }
@@ -72,34 +77,143 @@ header nav button {
     border: none;
     text-transform: uppercase;
     font-weight: 300;
-    font-size : 0.875rem;
+    font-size: 0.875rem;
     padding: 0.5rem 1.25rem;
-    border: radius 0.25rem;
+    border-radius: 0.25rem;
     margin-left: 1rem;
-    
-
 }
 
-main {}
-
+/* Banner */
 #banner {
-    height: 500px ;
+    height: 500px;
     border: 1px solid #dcdceb;
     background-color: #fff;
-    border-radius: 0.625rem;   
+    border-radius: 0.625rem;
     color: #01528A;
     background-image: url(../img/background-house.png);
     background-repeat: no-repeat;
     background-position: right;
-
 }
 
 #banner .banner-content {
     width: 650px;
-    weight: 100%;
     background: linear-gradient(270deg, rgba(255, 255, 255, 0), #fff 50%);
 }
 
 #banner h3 {
-    margin : 0;
+    margin: 0;
+}
+
+#banner .banner-body1 {
+    padding: 3.75rem 0 0 2.8rem;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+#banner .banner-body2 {
+    margin-top: 1rem;
+    margin-left: 2.8rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+/* Seções */
+section {
+    margin-top: 4rem;
+}
+
+section h2 {
+    padding: 2rem 0;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #01528A;
+    margin: 2rem 0;
+}
+
+/* Cards */
+#cards .cards-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cards .card {
+    width: 530px;
+    display: flex;
+    gap: 1rem;
+    box-shadow: rgb(0 0 0 / 20%) 0 2px 1px -1px,
+        rgb(0 0 0 / 14%) 0 1px 1px 0,
+        rgb(0 0 0 / 12%) 0 1px 3px 0;
+    border-radius: 0.6rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    position: relative;
+}
+
+#cards .card img {
+    width: 160px;
+    height: 180px;
+}
+
+#cards .card h4 {
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+
+#cards .card p {
+    font-weight: 300;
+    text-align: justify;
+    color: #8F90A6;
+    max-height: 4.5rem;
+    overflow: hidden;
+    margin-bottom: 1.3rem;
+}
+
+#cards .card-price {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+#cards .card-price p {
+    background-color: #0889d4;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+/* Razões */
+#reason .reasons-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#reason .reason {
+    text-align: center;
+    border-left: 2px solid #0889d4;
+    padding: 0 1.5rem;
+}
+
+#reason .reason:first-of-type {
+    border-left: none;
+}
+
+#reason .reason p {
+    text-align: center;
+}
+
+#reason .reason-value {
+    font-size: 2rem;
+}
+
+#reason .reason-label {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #8F90A6;
 }
