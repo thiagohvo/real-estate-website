@@ -21,15 +21,14 @@ header {
 
 header .container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 header .brand {
     display: flex;
-    gap: 1rem;
     align-items: center;
+    gap: 1rem;
 }
 
 header .brand img {
@@ -45,7 +44,7 @@ header .brand h1 {
 
 header nav ul {
     display: flex;
-    list-style-type: none;
+    list-style: none;
     gap: 1rem;
 }
 
@@ -142,9 +141,9 @@ section h2 {
     width: 530px;
     display: flex;
     gap: 1rem;
-    box-shadow: rgb(0 0 0 / 20%) 0 2px 1px -1px,
-        rgb(0 0 0 / 14%) 0 1px 1px 0,
-        rgb(0 0 0 / 12%) 0 1px 3px 0;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     border-radius: 0.6rem;
     margin-bottom: 3rem;
     padding: 1rem;
@@ -163,8 +162,8 @@ section h2 {
 
 #cards .card p {
     font-weight: 300;
-    text-align: justify;
     color: #8F90A6;
+    text-align: justify;
     max-height: 4.5rem;
     overflow: hidden;
     margin-bottom: 1.3rem;
@@ -172,8 +171,6 @@ section h2 {
 
 #cards .card-price {
     position: absolute;
-    display: flex;
-    justify-content: end;
     right: 1rem;
     bottom: 1rem;
 }
@@ -216,4 +213,192 @@ section h2 {
     font-size: 1.5rem;
     font-weight: 300;
     color: #8F90A6;
+}
+
+
+#specialist .specialist-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite quebra de linha em telas menores */
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#specialist .specialist {
+    flex: 1 1 30%;
+    /* Cada card ocupa até 30% do espaço, ajustando-se ao layout */
+    border: 1.5px solid #dcdceb;
+    border-radius: 0.625rem;
+    padding: 1.5rem;
+    color: #01528A;
+}
+
+#specialist h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+#specialist p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+#specialist .specialist-detail {
+    color: black;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    padding-top: 1rem;
+}
+
+#values {}
+
+#values .values-content {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#values .values-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    gap: 1rem;
+}
+
+#values .values-text p {
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+#values .values-text .values-detail {
+    padding: 1.5rem;
+}
+
+#values .values-detail .value {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;
+}
+
+#values .value p {
+    background-image: url('../img/bullet-values.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 1.5rem;
+    font-weight: 500;
+}
+
+
+footer {
+    background-color: #0889d4;
+    color: white;
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer .footer-company {
+    width: 450px;
+}
+
+footer .footer-company p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+footer .footer-brand {
+    background-image: url('../img/logo_imobiliaria_branca.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 2rem;
+    padding-left: 2.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+footer .footer-menu {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+footer .footer-menu-title {
+    font-weight: 400;
+
+}
+
+footer .footer-menu ul {
+    list-style: none;
+    margin-top: 1rem;
+
+}
+
+footer .footer-menu li {
+    margin-bottom: 0.5rem;
+
+}
+
+footer .footer-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer-menu a:hover {
+    text-decoration: underline;
+}
+
+
+footer .footer-social {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    gap: 1rem;
+
+}
+
+footer .footer-social span {
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.facebook {
+    background-image: url('../img/icon-facebook.svg');
+
+}
+
+.twitter {
+    background-image: url('../img/icon-twitter.svg');
+
+}
+
+.instagram {
+    background-image: url('../img/icon-instagram.svg');
+
+}
+
+.linkedin {
+    background-image: url('../img/icon-linkedin.svg');
+
+}
+
+
+footer .footer-copyright p {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding-top: 1.5rem;
+
 }
