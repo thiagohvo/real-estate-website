@@ -30,7 +30,8 @@ This is a responsive and modern website for listing and promoting real estate pr
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/real-estate-website.git
+git clone https://github.com/thiagohvo/real-estate-website.git
+cd real-estate-website
 # Open the index.html file in your browser (for static sites)
 ```
 ---
