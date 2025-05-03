@@ -41,18 +41,23 @@ git clone https://github.com/your-username/real-estate-website.git
 - Add navigation bar for other pages (e.g. About, Contact)
 ---
 
-## 👨‍💻 Author
-Thiago Henrique Vieira de Oliveira
-🌍 LinkedIn
-📧 thiago10thi@hotmail.com
-🇧🇷 Based in Brazil, open to remote international opportunities 
---- 
+ ## 👨‍💻 Author
+
+Thiago Henrique Vieira de Oliveira  
+🌍 [LinkedIn](https://www.linkedin.com/in/thiagohvo/)  
+📧 thiago10thi@hotmail.com  
+🇧🇷 Based in Brazil, open to remote international opportunities  
+
+---
 
 ## 📅 Project Date
+
 April 2024
+
 ---
 
 ## ⚠️ License
+
 This project is for learning purposes. You are welcome to fork or use it for educational and non-commercial use.
 
 
