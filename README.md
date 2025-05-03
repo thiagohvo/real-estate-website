@@ -36,9 +36,9 @@ git clone https://github.com/your-username/real-estate-website.git
 ---
 
 ## 📌 Future Plans
-Add search/filter functionality
-Integrate with property database or CMS
-Add navigation bar for other pages (e.g. About, Contact)
+- Add search/filter functionality
+- Integrate with property database or CMS
+- Add navigation bar for other pages (e.g. About, Contact)
 ---
 
 ## 👨‍💻 Author
