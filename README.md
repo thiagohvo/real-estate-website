@@ -46,8 +46,7 @@ cd real-estate-website
 
 Thiago Henrique Vieira de Oliveira  
 🌍 [LinkedIn](https://www.linkedin.com/in/thiagohvo/)  
-📧 thiago10thi@hotmail.com  
-🇧🇷 Based in Brazil, open to remote international opportunities  
+
 
 ---
 
