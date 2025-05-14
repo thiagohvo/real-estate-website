@@ -45,7 +45,7 @@ cd real-estate-website
  ## 👨‍💻 Author
 
 Thiago Henrique Vieira de Oliveira  
-🌍 [LinkedIn](https://www.linkedin.com/in/thiagohvo/)  
+ [LinkedIn](https://www.linkedin.com/in/thiagohvo/)  
 
 
 ---
